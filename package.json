@@ -1,0 +1,32 @@
+{
+  "name": "antora-indexer-elasticsearch",
+  "version": "0.1.0",
+  "description": "Indexer to Elastic Search",
+  "license": "Apache-2.0",
+  "author": "Intersec SA (https://intersec.com)",
+  "contributors": [
+    "Jean-Marc Coïc <jean-marc.coic@intersec.com>"
+  ],
+  "homepage": "https://github.com/JeanMarcCoic/antora-indexer-elasticsearch",
+  "repository": "github:JeanMarcCoic/antora-indexer-elasticsearch",
+  "main": "lib/index.js",
+  "dependencies": {
+    "@elastic/elasticsearch": ">=7",
+    "cheerio": "0.22.0"
+  },
+  "engines": {
+    "node": ">=8.11.0"
+  },
+  "files": [
+    "lib/"
+  ],
+  "keywords": [
+    "antora",
+    "antora-component",
+    "content",
+    "indexer",
+    "documentation",
+    "static site",
+    "web publishing"
+  ]
+}
